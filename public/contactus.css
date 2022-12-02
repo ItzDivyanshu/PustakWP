@@ -1,0 +1,256 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("https://img.freepik.com/premium-photo/open-book-with-glasses-wooden-table-against-background-set-books-vintage-toning-web-banner-literature-learning-concept_101969-2143.jpg?w=2000");
+    background-size: cover;
+    overflow-x: hidden;
+}
+.menu{
+    width: 1535px;
+    height: 41px;
+    background-color: #131621E8;
+    }
+
+    nav ul{
+        margin-left:925px;
+    }
+
+nav ul li {
+    display: inline-block;
+    /* float: right; */
+
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    float: right;
+   
+
+}
+.footer{
+    
+    background: #000000de;
+    position:absolute;
+    bottom: 0px;
+    top: 718px;
+    left:0;
+    right: 0;
+    height: 33%;
+    width: 100vw;
+   
+    color:#fff;
+    padding: 0px 0px 100px 0px;
+    
+    }
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    float:right;
+    
+    
+}
+.container h2{
+    font-size: 40px;
+    /* text-align: center; */
+    margin: auto;
+    /* padding-top:2%; */
+}
+.footer-col .aboutus{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 75px;
+    margin-top: -40px;
+
+}
+.footer-col .whyfitness{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 37px;
+    margin-top: -40px;
+
+}
+.footer-col .connect{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 30px;
+    margin-top: -40px;
+
+}
+.connect1{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 27px;
+    margin-top: -94px;
+    
+
+}
+a:visited{color: #ffffffde;}
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+  /* transition: color .3s ease-in-out, box-shadow .3s ease-in-out; */
+}
+/* .box1{
+    /* background-color: #fff;
+    width:300px;
+    height:200px; */
+/* width: 490px;
+height: 623px;
+color: black;
+position: relative;
+top: -642px;
+left: 396px;
+opacity: 30%;
+/* font-size: 40px; } */
+.write{
+    font-size: 40px;
+color: rgb(0, 0, 0);
+opacity: 106%;
+position: absolute;
+top: 36px;
+left: 500px;
+}
+.write1{
+    font-size: 15px;
+    position: absolute;
+    top: 90px;
+    left: 450px;
+    color: rgb(45, 41, 41);
+}
+.write2{
+    font-size: 15px;
+    position: absolute;
+    top: 135px;
+    left: 530px;
+    color: rgb(45, 41, 41);
+}
+.write3{
+    font-size: 28px;
+    position: absolute;
+    top: 167px;
+    left: 420px;
+    color: black;
+}
+.fname{
+    font-size: 200px;
+    position: absolute;
+    margin-left: 420px;
+    /* margin-top: -100px; */
+}
+.write4{
+    font-size: 28px;
+    position: absolute;
+    top: 241px;
+    left: 420px;
+    color: black;
+}
+ .lname{
+    font-size: 200px;
+    position: absolute;
+    margin-left: -3px;
+    margin-top: 88px;
+} 
+.write5{
+    font-size: 28px;
+    position: absolute;
+    top: 312px;
+    left: 420px;
+    color: black;
+}
+.write6{
+    font-size: 28px;
+    position: absolute;
+    top: 380px;
+    left: 420px;
+    color: black;
+}
+.write7{
+    font-size: 28px;
+    position: absolute;
+    top: 445px;
+    left: 420px;
+    color: black;
+}
+.write8{
+    font-size: 28px;
+    position: absolute;
+    top: 520px;
+    left: 420px;
+    color: black;
+}
+
+.grey{
+    background-color: lightgray;
+    width: 465px;
+    height: 580px;
+    float: right;
+    margin-left: 200px;
+    position: absolute;
+    left: 200px;
+    top: 42px;
+    opacity: 50%;
+  }
+  #submit{
+    padding: 15px;
+    width: 130px;
+    background-color: rgb(17, 2, 2);
+    border-radius: 0.8rem;
+    margin-left: 36%;
+    margin-top: 30%;
+}
+#submit span{
+    text-align: center;
+    color: #fff;
+}
+/* #create-submit span{
+    text-align: center;
+    color: #fff;
+} */
+.contact{
+    position: absolute;
+    left: 100px;
+    top: 1px;
+    margin-left: 5px;
+    color: #550D0E;
+}
+
+
+.help{
+    position: absolute;
+    left: 200px;
+    top: 1px;
+    margin-left: 5px;
+    color: #550D0E;
+}
+
+.wish{
+    position: absolute;
+    left: 1200px;
+    top: 1px;
+    margin-left: 5px;
+    color: #550D0E;
+}
+
+.order{
+    position: absolute;
+    left: 1300px;
+    top: 1px;
+    margin-left: 5px;
+    color: #550D0E;
+}
+
+.sign{
+    position: absolute;
+    left: 1400px;
+    top: 1px;
+    margin-left: 5px;
+    color: #550D0E;
+}
+
+.top{
+    background-color: white;
+}

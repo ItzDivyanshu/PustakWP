@@ -1,0 +1,879 @@
+body{
+    background-color: #FFF7EC;
+    overflow-x: hidden;
+    font-style: sans-serif ;
+}
+
+.flexcontainer{
+    display: flex;
+}
+
+.fitem{
+    margin: 10px;
+}
+
+.fitem1{
+    margin: 12px;
+    width: 322px;
+    height: 750px;
+    float: left;
+    background-color: #F9F4DB;
+}
+
+.fitem2{
+    flex-direction: row;
+    float: right;
+}
+.fitem3{
+    background-color:#F9F4DB; 
+    margin: 12px;
+    margin-bottom: 10px;
+    width: 1100px;
+    height: 300px;
+    position: relative;
+   
+    
+    
+    
+}
+.fitem4{
+    background-color: #F9F4DB;
+    margin: 12px;
+    width: 1100px;
+    height: 388px;
+    
+}
+
+
+.best1{
+    position: relative;
+}
+
+.best2{
+    position: relative;
+    left: 420px;
+    top: -400px;
+}
+
+.best3{
+    position: relative;
+    left: 1200px;
+    top: -400px;
+}
+
+.news{
+    position: relative;
+    top: 50px;
+}
+
+.h{
+    font-size: 20px;
+    color:#550D0E;
+    margin-left: 30px;
+}
+
+.ladki{
+    position: relative;
+    margin-left: 65px;
+    margin-bottom: 50px;
+    
+}
+
+.bml{
+    position: absolute;
+    left: 75px;
+    color: #550D0E;
+    font-size: 30px;
+}
+
+.same{
+    position: absolute;
+    left: 75px;
+    font-size: 30px;
+    top: 350px;
+    color: #A13842;
+
+
+}
+.same1{
+    position: absolute;
+    left: 80px;
+    font-size: 30px;
+    top: 425px;
+    color: #A13842;
+    
+
+
+}
+
+
+.same2{
+    position: absolute;
+    left: 75px;
+    top:500px ;
+    font-size: 30px;
+    color: #A13842;
+
+
+}
+.same3{
+    position: absolute;
+    left: 80px;
+    top: 575px;
+    font-size: 30px;
+    color: #A13842;
+
+
+}
+.same4{
+    position: absolute;
+    left: 140px;
+    top: 650px;
+    font-size: 30px;
+    color: #A13842;
+
+
+}
+
+.top{
+    background-color: white;
+}
+
+.contact{
+    position: absolute;
+    left: 100px;
+    top: 1px;
+    margin-left: 5px;
+    color: #550D0E;
+}
+
+
+.help{
+    position: absolute;
+    left: 200px;
+    top: 1px;
+    margin-left: 5px;
+    color: #550D0E;
+}
+
+.wish{
+    position: absolute;
+    left: 1200px;
+    top: 1px;
+    margin-left: 5px;
+    color: #550D0E;
+}
+
+.order{
+    position: absolute;
+    left: 1300px;
+    top: 1px;
+    margin-left: 5px;
+    color: #550D0E;
+}
+
+.sign{
+    position: absolute;
+    left: 1400px;
+    top: 1px;
+    margin-left: 5px;
+    color: #550D0E;
+}
+
+.puss{
+    margin-right:380px;
+    display: inline;
+    font-size: 30px;
+    margin-left: 70px;
+}
+
+.inr{
+    color: #550D0E;
+    position: absolute ;
+    left:1300px ;
+    top: 25px;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+.cart-item{
+    color: #550D0E;
+    position: absolute ;
+    left:1430px ;
+    top: 25px;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+.cart{
+    position: absolute ;
+    left:1450px ;
+    top: 47px;
+
+}
+
+
+
+.search{
+    color: #550D0E;
+    position: absolute;
+    left: 1000px;
+    top: 60px;
+    display: inline;
+}
+
+/* #ads{
+    width:130px;
+    height:25px ;
+    color: #550D0E;
+    position: absolute ;
+    left:1300px ;
+    top: 55px;
+    border-radius: 15px;
+} */
+#s{
+    width:75px;
+    color:#ffffff;
+    background-color: #550D0E;
+    position: absolute ;
+    left:910px ;
+    top: 52px;
+    border-radius: 7px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.ab{
+    color: #550D0E;
+    position: absolute ;
+    left:630px ;
+    top: 55px;
+
+}
+
+#e{
+    color:white;
+    background-color: #550D0E;
+    position: absolute ;
+    left: 760px;
+    top: 160px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.inpute{
+    position: absolute ;
+    left: 650px;
+    top: 105px;
+
+}
+
+
+.stop{
+    background-color: #F9F4DB;
+}
+
+.topbottom{
+    background-color: #F9F4DB;
+
+}
+
+.pays{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 100px;
+    color: #550D0E;
+    float: left;
+}
+
+.pay{
+    font-size: 50px;
+}
+
+.pay1{
+    margin-left: 50px;
+}
+
+.pay2{
+    margin-left: 70px;
+}
+
+.pay3{
+    margin-left: 80px;
+}
+
+.pay4{
+    margin-left: 60px;
+}
+
+
+.pics{
+    float: right;
+    margin-top: 150px;
+    margin-right: 250px;
+}
+
+.payb{
+    clear: both;
+    background-color: #0a1e25cc;
+    height: 220px;
+}
+
+
+.paypus{
+    color: #550D0E;
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+
+.paypus1{
+    color: #E7D6AC;
+    font-size: 30px;
+    margin-top: 0px;
+    padding-bottom: 40px;
+}
+
+.about-us{
+    position: absolute;
+    margin-left: 800px;
+    top:530px;
+    font-size: 25px;
+    color: white;
+}
+
+.smedia{
+    position: absolute;
+    margin-left: 1050px;
+    top:530px;
+    font-size: 25px;
+    color: white;
+}
+
+.more{
+    position: absolute;
+    margin-left: 1250px;
+    top:550px;
+    font-size: 25px;
+    color: white;
+}
+
+.icons{
+    position: absolute;
+    margin-left: 1480px;
+    top:540px;
+    font-size: 25px;
+}
+
+a:visited{
+    color:blue;
+
+}
+
+.firstline{
+    margin-top: 45px;
+    margin-left: 90px;
+    color: #550D0E;
+
+}
+
+.rs{
+    background-color: #D9D9D9;
+}
+
+.xyz{
+    position: absolute;
+    margin-left: 150px ;
+    top: 120px;
+    font-size: 20px;
+}
+
+.gift{
+    position: absolute;
+    margin-left: 569px ;
+    top: 130px;
+    font-size: 22px;
+
+
+}
+
+.gc{
+    position: absolute;
+    margin-left: 669px ;
+    top: 200px;
+    font-size: 22px;
+
+
+}
+
+
+
+.boomk2{
+    background-color: #F9F4DB;
+    margin-left: 1000px;
+    margin-right: 60px;
+    margin-top: 0px;
+}
+
+.boomk3{
+    position: absolute;
+    margin-left: 250px;
+    top: 320px;
+    margin-top: 0px;
+}
+
+.lmnop{
+    position: absolute;
+    margin-left: 100px;
+}
+
+.b2h{
+    margin-left: 20px;
+}
+
+.b2r{
+    margin-left: 30px;
+}
+
+.sa{
+    color: #550D0E;
+    position: absolute;
+    font-size: 30px;
+    top: 340px;
+}
+
+.a1{
+    color: #550D0E;
+    position: absolute;
+    font-size: 30px;
+    top: 430px;
+
+}
+
+.a2{
+    color: #550D0E;
+    position: absolute;
+    font-size: 30px;
+    top: 500px;
+
+
+}
+
+.st{
+    color: #550D0E;
+    position: absolute;
+    font-size: 30px;
+    top: 570px;
+
+
+}
+
+.pc{
+    color: #550D0E;
+    position: absolute;
+    font-size: 30px;
+    top: 640px;
+
+}
+
+.ass1{
+    position: absolute;
+    left: 200px;
+    top: -3px;
+}
+
+.ass2{
+    position: absolute;
+    left: 200px;
+    top: -3px;
+}
+
+.ass3{
+    position: absolute;
+    left: 300px;
+    top: -3px;
+    
+}
+
+.ass4{
+    position: absolute;
+    left: 200px;
+    top: -3px;
+}
+
+
+
+/* a:hover {
+    color: #fff;
+    box-shadow: inset 200px 0 0 0 aqua;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+} */
+
+.boomk2 a:hover img{
+    transform: scale(1.3); 
+    transition: .5s ease-in;
+
+}
+.b1img a:hover img{
+    transform: scale(1.2); 
+    transition: .5s ease-in;
+
+}
+.b1img1 a:hover img{
+    transform: scale(1.2); 
+    transition: .5s ease-in;
+
+}
+.b1img2 a:hover img{
+    transform: scale(1.2); 
+    transition: .5s ease-in;
+
+}
+
+#paybutton{
+    position: absolute;
+    background-color: #550D0E;
+    color: white;
+    top: 720px;
+    left: 500px;
+    border-radius: 32px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+#paybutton:hover{
+    box-shadow: 0 22px 26px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.bf1{
+    position: absolute;
+    font-size: 20px;
+    left: 500px;
+}
+
+.m{
+    color:#550D0E;
+
+}
+
+.b1img{
+    position: absolute;
+    left: 50px;
+}
+
+#or1{
+    position: absolute;
+    top:300px;
+    border-radius: 15px;
+    background-color:#E7D6AC;
+    left: 100px;
+}
+
+#or2{
+    position: absolute;
+    top:300px;
+    border-radius: 15px;
+    background-color:#E7D6AC;
+    left: 50px;
+}
+
+
+
+.ors{
+    color:#550D0E;
+}
+
+.bf2{
+    position: absolute;
+    font-size: 20px;
+    left: 900px;
+}
+
+.bf3{
+    position: absolute;
+    font-size: 20px;
+    left: 1250px;
+}
+
+.b1img2{
+    position: absolute;
+    left:-10px;
+}
+
+.bookphomtu{
+    position: absolute;
+    right: 50px;
+    top: 100px;
+}
+.reglog{
+    position: absolute;
+    left: 100px;
+    top: 320px;
+    font-size: 45px;
+    color: #550D0E;
+}
+.sinup{
+    position: absolute;
+    left: 700px;
+    top: 225px;
+    font-size: 32px;
+    color: #550D0E;
+}
+.userpass{
+    position: absolute;
+    left: 550px;
+    top: 315px;
+    font-size: 20px;
+    color: #550D0E;
+}
+.sinin{
+    position: absolute;
+    left: 1169px;
+    top: 225px;
+    font-size: 32px;
+    color: #550D0E;
+}
+.userpass2{
+    position: absolute;
+    left: 1040px;
+    top: 340px;
+    font-size: 20px;
+    color: #550D0E;
+}
+.contggl{
+    position: absolute;
+    left: 660px;
+    top: 510px;
+    font-size: 18px;
+    color: #550D0E;
+}
+.ggl1{
+    position: relative;
+    top: 6.069px;
+}
+.contggl2{
+    position: absolute;
+    left: 1111px;
+    top: 480px;
+    font-size: 18px;
+    color: #550D0E;
+}
+.ggl2{
+    position: relative;
+    top: 6.069px;
+}
+.inbomx{
+    position: absolute;
+    left: 730px;
+    top: 325px;
+}
+.inbomx2{
+    position: absolute;
+    left: 1169px;
+    top: 345px;
+}
+.p1button{
+    position: absolute;
+    left: 672px;
+    top: 555px;
+    font-size: 10px;
+    background-color: #e00509;
+    padding: 5px;
+}
+.c1button{
+    position: absolute;
+    left: 769px;
+    top: 555px;
+    font-size: 10px;
+    background-color: #e00509;
+    padding: 5px;
+}
+.p2button{
+    position: absolute;
+    left: 1133px;
+    top: 555px;
+    font-size: 10px;
+    background-color: #e00509;
+    padding: 5px;
+}
+.c2button{
+    position: absolute;
+    left: 1230px;
+    top: 555px;
+    font-size: 10px;
+    background-color: #e00509;
+    padding: 5px;
+}
+.arrow{
+    position: absolute;
+    left: 100px;
+    top: 420px;
+}
+.b1priceorder{
+    position: absolute;
+    left: 85px;
+    top: 305px;
+    border-radius: 0.8rem;
+    color: #550D0E;
+    background-color: #E7D6AC;
+}
+.b2priceorder{
+    position: absolute;
+   right: 30px;
+    top: 305px;
+    border-radius: 0.8rem;
+    color: #550D0E;
+    background-color: #E7D6AC;
+}
+.b3priceorder{
+    position: absolute;
+    right: 5px;
+    top: 305px;
+    border-radius: 0.8rem;
+    color: #550D0E;
+    background-color: #E7D6AC;
+}
+
+.pog{
+    position: absolute;
+    left: 20px;
+    top:90px;
+}
+
+.f2container{
+    display: flex;
+    position: absolute;
+    top:200px;
+}
+
+.pbox1{
+    margin: 12px;
+    width: 841px;
+    height: 565px;
+    float: left;
+    background-color: #F9F4DB;
+}
+
+.pbox2{
+    margin: 12px;
+    width: 452px;
+    height: 492px;
+    float: left;
+    background-color: #F9F4DB;
+}
+
+.para1{
+    position: absolute;
+    left: 369px;
+}
+
+.star{
+    text-align: center;
+}
+.tag5{
+    text-align: center;
+    font-size: 20px;
+}
+.tag6{
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.para2{
+    text-align: center;
+    font-size: 24px;
+}
+.tag7{
+    text-align: center;
+    font-size: 26px;
+}
+
+#gif{
+    position:absolute;
+    left: 1010px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#gif1{
+    position:absolute;
+    left: 1065px;
+    top: 300px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#gif2{
+    position:absolute;
+    left: 1090px;
+    top: 350px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.footer{
+    
+    background: #000000de;
+    position:absolute;
+    bottom: 0px;
+    top: 718px;
+    left:0;
+    right: 0;
+    height: 33%;
+    width: 100vw;
+   
+    color:#fff;
+    padding: 0px 0px 100px 0px;
+    
+    }
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    float:right;
+    
+    
+}
+.container h2{
+    font-size: 40px;
+    /* text-align: center; */
+    margin: auto;
+    margin-top: 50px;
+    /* padding-top:2%; */
+}
+.footer-col .aboutus{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 75px;
+    margin-top: -120px;
+
+}
+.footer-col .whyfitness{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 37px;
+    margin-top: -120px;
+
+}
+.footer-col .connect{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 30px;
+    margin-top: -120px;
+
+}
+.connect1{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 27px;
+    margin-top: -200px;
+    
+
+}
+
+.hemlo{
+    position: absolute;
+    left: 600px;
+}
