@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap'); */
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  height: 100vh;
+  /* background: -webkit-repeating-linear-gradient(-45deg, #cde671, #6cce69, #af8e22, #ee8176, #12743a, #69a6ce, #0e701e); */
+  background-size: 400%;
+  background-image:url("https://static.toiimg.com/photo/msid-80131937/80131937.jpg");
+}
+#abt{
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  right: 15%;
+  bottom: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+  background-image: url("https://static.toiimg.com/photo/msid-80131937/80131937.jpg");
+}
+#abt .content{
+  max-width: 600px;
+  text-align: center;
+}
+.content h2.header{
+  font-size: 18vw;
+  line-height: 1em;
+  position: relative;
+}
+
+.content h3.header{
+  font-size: 4vw;
+  line-height: 1em;
+  position: relative;
+}
+.content h2.header:after{
+  position: absolute;
+  content: attr(data-text);
+  top: 0;
+  left: 0;
+  right: 0;
+  background: -webkit-repeating-linear-gradient(-45deg, #71e68e, #b8ce69, #1d7a1a, #ee8176, #b98acc, #69ce77, #9b59b6);
+  background-size: 400%;
+  /* -webkit-background-clip: text; */
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 2px rgba(255,255,255,0.25);
+  animation: animate 10s ease-in-out infinite;
+}
+@keyframes animate {
+  0%{
+    background-position: 0 0;
+  }
+  25%{
+    background-position: 100% 0;
+  }
+  50%{
+    background-position: 100% 100%;
+  }
+  75%{
+    background-position: 0% 100%;
+  }
+  100%{
+    background-position: 0% 0%;
+  }
+}
+.content h4{
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 2em;
+  max-width: 600px;
+  position: relative;
+}
+.content h4:after{
+  position: absolute;
+  content: attr(data-text);
+  top: 0;
+  left: 0;
+  right: 0;
+  text-shadow: 1px 1px 2px rgba(255,255,255,0.4);
+  /* -webkit-background-clip: text; */
+  -webkit-text-fill-color: transparent;
+}
+.content p{
+  font-size: 1.2em;
+  color: #0d0d0d;
+}
+.content .btns{
+  margin: 25px 0;
+  display: inline-flex;
+}
+.content .btns a{
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  border: 2px solid #69ce69;
+  color: #c4ce69;
+  font-weight: 500;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+.content .btns a:hover{
+  background: #416d19;
+  color: #fff;
+}
+
+
+
+
+.contact{
+    position: absolute;
+    left: 100px;
+    top: 1px;
+    margin-left: 5px;
+    color: #550D0E;
+}
+
+
+.help{
+    position: absolute;
+    left: 200px;
+    top: 1px;
+    margin-left: 5px;
+    color: #550D0E;
+}
+
+.wish{
+    position: absolute;
+    left: 1200px;
+    top: 1px;
+    margin-left: 5px;
+    color: #550D0E;
+}
+
+.order{
+    position: absolute;
+    left: 1300px;
+    top: 1px;
+    margin-left: 5px;
+    color: #550D0E;
+}
+
+.sign{
+    position: absolute;
+    left: 1400px;
+    top: 1px;
+    margin-left: 5px;
+    color: #550D0E;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+    </style>
+</head>
+<body>
+  <div class="top">
+    <a href="index.html"><img src="home.png"></a>
+        <a href=""><p class="contact">Contact</p></a>
+        <a href=""><p class="help">Help</p></a>
+        <a href=""><p class="wish">Wishlist</p></a>
+        <a href="#"><p class="order">MyOrders</p></a>
+        <a href="signup.html"><p class="sign">Sign in/Sign up</p></a>
+    
+</div>
+    
+      <div id="abt">
+         <div class="content">
+            <h3 class="header" data-text="">
+               About Us!
+            </h3>
+            <h4 data-text="Opps! Page not found">
+                We offer user friendly, and a unique experience on our store.
+            </h4>
+            <p><br>
+                Pustak offer a range of professional books in the fields of
+                Taxation, Accounting, Legal, Medical, Engineering and Academic Books from renowned publishers in the industry.
+            </p>
+            <div class="btns">
+               <a href="index.html">return home</a>
+               <a href="contactus.html">report problem</a>
+            </div>
+         </div>
+      </div>
+    
+</body>
+</html>
